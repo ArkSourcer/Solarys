@@ -1,0 +1,6 @@
+displayName: "Project Solarys"
+name: "Solarys"
+author: "Arkanic"
+description: "Trying Kotlin."
+version: 1.0 Alpha
+minGameVersion: 135
