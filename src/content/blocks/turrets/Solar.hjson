@@ -1,0 +1,51 @@
+type: ItemTurret
+targetAir: true
+targetGround: true
+health: 2000
+size: 4
+inaccuracy: 12
+reloadTime: 100
+shots: 2
+recoilAmount: 5
+ammoUseEffect: casing3
+shootCone: 10
+rotateSpeed: 500
+range: 345
+ammoTypes: {
+  solarys: {
+    speed: 8
+    damage: 400
+    width: 16
+    height: 21
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    status: burning
+    homingRange: 99999
+    homingPower: 99999
+    ammoMultiplier: 20
+    frontColor: ff7700
+    backColor: ff7700
+  }
+  pyratite: {
+    sprite: sol
+    speed: 6
+    damage: 200
+    width: 16
+    height: 21
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    status: burning
+    ammoMultiplier: 20
+    frontColor: f79f52
+    backColor: edb07b
+  }
+ 
+}
+requirements: [
+  pyratite/400
+  blast-compound/400
+  thorium/300
+]
+category: turret
+research: swarmer
+shootSound: solarBlaster
