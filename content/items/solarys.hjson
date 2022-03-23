@@ -1,0 +1,6 @@
+cost: 5.5
+radioactivity: 1.0
+flammability: 1.0
+explosiviness: 0.5
+color: "ff5900"
+category: thorium
