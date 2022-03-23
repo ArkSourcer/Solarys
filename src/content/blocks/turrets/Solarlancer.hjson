@@ -27,7 +27,6 @@ ammoTypes: {
     backColor: ff7700
   }
   pyratite: {
-    sprite: sol
     speed: 6
     damage: 200
     width: 16
@@ -47,5 +46,5 @@ requirements: [
   thorium/300
 ]
 category: turret
-research: swarmer
+research: spectre
 shootSound: solarBlaster
