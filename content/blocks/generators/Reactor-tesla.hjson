@@ -1,0 +1,22 @@
+liquidCapacity: 100
+size: 4
+hasLiquids: true
+powerProduction: 10
+consumes: {
+  power: 10
+  liquid: {
+    liquid: water
+    amount: 14.4
+  }
+}
+requirements: [
+  surge-alloy/750
+  titanium/400
+  silicon/600
+  lead/600
+  solarys/50
+]
+category: power
+ambientSound: Reactor-tesla
+ambientSoundVolume: 0.2
+research: impact-reactor
