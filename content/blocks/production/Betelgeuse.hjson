@@ -1,7 +1,6 @@
 type: genericCrafter
 craftTime: 100
-size: 4
-topRegion: Betelgeuse-top
+size: 3
 drawer: {
   type: drawAnimation
 }
