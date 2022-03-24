@@ -1,13 +1,13 @@
-type: GenericSmelter
-size: 4
+type: genericCrafter
+craftTime: 90
+size: 5
+drawer: {
+  type: drawAnimation
+}
 hasPower: true
-hasLiquids: false
-hasItems: true
-craftTime: 100
-craftEffect: explosion
-updateEffect: reactorExplosion 
+hasLiquids: true
+liquidCapacity: 72
 consumes: {
-  power: 5.0
   items: {
     items: [
       pyratite/5
@@ -15,15 +15,19 @@ consumes: {
       thorium/5
     ]
   }
+  liquid: {
+    liquid: slag
+    amount: 0.6
+  }
+  power: 12
 }
+craftEffect: smokeCloud
 requirements: [
-  blast-compound/300
-  pyratite/600
-  thorium/200
-  silicon/400
+  pyratite/500
+  blast-compound/500
+  titanium/500
+  thorium/400
 ]
 category: crafting
-research: blast-mixer
-ambientSound: build
-ambientSoundVolume: 1.1
 outputItem: solarys/1
+research: blast-mixer
