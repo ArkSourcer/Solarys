@@ -1,7 +1,7 @@
-healthMultiplier: -0.6
-damageMultiplier: -0.1
-reloadMultiplier: -0.5
-speedMultiplier: -0.9
+healthMultiplier: 0.01
+damageMultiplier: 0.01
+reloadMultiplier: 0.01
+speedMultiplier: 0.01
 effect: {
   type: ParticleEffect
   particles: 5
