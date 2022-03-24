@@ -1,56 +1,27 @@
-"type": "GenericCrafter",
-	"drawer": {
-  "type": "drawArcSmelter",
-  "flameColor": "471FD2",
-  "midColor": "9262F8",
-  "flameRad": 1.6,
-  "circleSpace": 2,
-  "circleStroke": 0.9,
-  "alpha": 2,
-  "particleRad": 10,
-  "particles": 32,
-  "particleLen": 5,
-  "particleStroke": 0.9,
-  "particleLife": 80
-	},
-	"size": 4,
-	"hasPower": true,
-	"hasLiquids": false,
-	"hasItems": true,
-	"itemCapacity": 30,
-	"craftTime": 150,
-	"craftEffect": {
-	"type": "WaveEffect",
-    "lifetime": 25,
-    "sizeFrom": 0,
-    "sizeTo": 40,
-    "strokeFrom": 4,
-    "strokeTo": 0,
-    "colorFrom": "CFA9FF",
-    "colorTo": "666EFF"
-	},
-	"updateEffect": "none",
-	"consumes": {
-		"power": 2,
-		"items": {
-			"items": [
-                        "titanium/10",
-			"thorium/15",
-			"silicon/10"
-                        "plastanium/5"
-			]
-		}
-	},
-	"requirements": [
-	    "silicon/200",
-		"titanium/200",
-		"thorium/350",
-		"plastanium/100",
-        "lead/440"
-	],
-	"category": "crafting",
-	"research": "alloy-smelter",
-	"outputItem": "astral/2"
-        "idleSound": "respawning",
-	"idleSoundVolume": 0.5
+type: GenericSmelter
+size: 4
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 100
+craftEffect: explosion
+updateEffect: reactorExplosion 
+consumes: {
+  power: 5.0
+  items: {
+    items: [
+      wolframite/3
+    ]
+  }
 }
+requirements: [
+  blast-compound/300
+  pyratite/600
+  thorium/200
+  silicon/400
+]
+category: crafting
+research: blast-mixer
+ambientSound: build
+ambientSoundVolume: 1.1
+outputItem: solarys/1
