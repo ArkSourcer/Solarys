@@ -33,3 +33,4 @@ requirements: [
 category: crafting
 outputItem: solarys/1
 research: blast-mixer
+soundEffect: boom 
