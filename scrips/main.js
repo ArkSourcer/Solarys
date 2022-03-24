@@ -14,7 +14,7 @@ solara.mesh = new HexMesh(solara, 5);
     solara.alwaysUnlocked = true;
     solara.localizedName = "Solara";
 
-var h = new SectorPreset("a1", solara, 1);
+var h = new SectorPreset("solara1", solara, 1);
 h.difficulty = 2; 
 h.alwaysUnlocked = true;
 h.captureWave = 20; 
