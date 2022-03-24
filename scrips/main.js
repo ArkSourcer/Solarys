@@ -16,7 +16,7 @@ Events.on(ClientLoadEvent, () => {
     saaralia.localizedName = "saaralia";
 
     for(var i = 0; i < 31; i++){
-        var h = new SectorPreset("Saralis" + i, routros, i);
+        var h = new SectorPreset("Saralis" + i, saaralia, i);
         h.localizedName = "Saralis" + i;
         h.alwaysUnlocked = true;
     };
