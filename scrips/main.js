@@ -1,5 +1,5 @@
 Events.on(ClientLoadEvent, () => {
-    const routros = new Planet("saaralia", Planets.sun, 2, 3);
+    const saaralia = new Planet("saaralia", Planets.sun, 2, 3);
     saaralia.generator = new SerpuloPlanetGenerator();
     saaralia.mesh = new HexMesh(saaralia, 5);
     saaralia.orbitRadius = 10;
@@ -16,8 +16,8 @@ Events.on(ClientLoadEvent, () => {
     saaralia.localizedName = "saaralia";
 
     for(var i = 0; i < 31; i++){
-        var h = new SectorPreset("router" + i, routros, i);
-        h.localizedName = "Router" + i;
+        var h = new SectorPreset("Saralis" + i, routros, i);
+        h.localizedName = "Saralis" + i;
         h.alwaysUnlocked = true;
     };
 });
