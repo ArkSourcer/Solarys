@@ -10,7 +10,9 @@ consumes: {
   power: 5.0
   items: {
     items: [
-      wolframite/3
+      pyratite/5
+      blast-compound/5
+      thorium/5
     ]
   }
 }
