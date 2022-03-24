@@ -1,7 +1,7 @@
 Events.on(ClientLoadEvent, () => {
-    const banice = new Planet("banice", Planets.sun, 1, 1);
+    const banice = new Planet("banice", Planets.sun, 1, 2);
     banice.generator = new SerpuloPlanetGenerator();
-    banice.mesh = new HexMesh(routros, 5);
+    banice.mesh = new HexMesh(banice, 5);
     banice.orbitRadius = 15;
     banice.orbitTime = 1.0 * 60;
     banice.rotateTime = 10;
