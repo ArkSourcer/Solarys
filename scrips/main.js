@@ -1,21 +1,23 @@
-const solara = new JavaAdapter(Planet, {}, "solara", Planets.sun, 4, 1);
-solara.generator = new SerpuloPlanetGenerator();
-solara.mesh = new HexMesh(solara, 5);
-  solara.orbitRadius = 100;
-    solara.orbitTime = 1500;
-    solara.rotateTime = 30;
-    solara.bloom = false;
-    solara.accessible = true;
-    solara.startSector = 1;
-    solara.hasAtmosphere = false;
-    solara.atmosphereColor = Color.valueOf("ff895e");
-    solara.atmosphereRadIn = 0.0;
-    solara.atmosphereRadOut = 0.0;
-    solara.alwaysUnlocked = true;
-    solara.localizedName = "Solara";
+Events.on(ClientLoadEvent, () => {
+    const banice = new Planet("banice", Planets.sun, 1, 1);
+    banice.generator = new SerpuloPlanetGenerator();
+    banice.mesh = new HexMesh(routros, 5);
+    banice.orbitRadius = 15;
+    banice.orbitTime = 1.0 * 60;
+    banice.rotateTime = 10;
+    banice.bloom = true;
+    banice.accessible = true;
+    banice.startSector = 1;
+    banice.hasAtmosphere = true;
+    banice.atmosphereColor = Liquids.cryofluid.color;
+    banice.atmosphereRadIn = 0.1;
+    banice.atmosphereRadOut = 0.3;
+    banice.alwaysUnlocked = true;
+    banice.localizedName = "Banice";
 
-var h = new SectorPreset("solara1", solara, 1);
-h.difficulty = 2; 
-h.alwaysUnlocked = true;
-h.captureWave = 20; 
-h.localisedName = "solara";
+    for(var i = 0; i < 31; i++){
+        var h = new SectorPreset("solara1" + i, banice, i);
+        h.localizedName = "Solara" + i;
+        h.alwaysUnlocked = true;
+    };
+});
