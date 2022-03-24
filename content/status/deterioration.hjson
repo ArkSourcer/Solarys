@@ -1,10 +1,10 @@
-damageMultiplier: 0.2
-reloadMultiplier: 0.4
-buildSpeedMultiplier: 0.5
+damageMultiplier: -0.05
+reloadMultiplier: -0.05
+buildSpeedMultiplier: -0.02
 damage: 0.3
 color: 6e6e6e
-name: Deterioracion Melting
+name: Deterioracion
 affinities: [
-  wet
+  unmoving
 ]
-transitionDamage: 10
+transitionDamage: 1
