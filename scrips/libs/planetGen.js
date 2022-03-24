@@ -1,4 +1,4 @@
-//let waves = require("heavymachinery/libs/unitWaves")
+//let waves = require("Solarys/libs/unitWaves")
 const planetGen = extend(PlanetGenerator, {
     rawHeight(position){
         position = Tmp.v33.set(position).scl(this.scl);
@@ -236,13 +236,13 @@ const planetGen = extend(PlanetGenerator, {
                 };
             };
 
-            if(this.floor != null && this.floor != Blocks.basalt && this.floor != Blocks.mud && this.floor.asFloor().hasSurface()){
+            if(this.floor != null && this.floor != Blocks.grass && this.floor != Blocks.basalt && this.floor.asFloor().hasSurface()){
                 let noise = this.noiseOct(x + 782, y, 5, 0.75, 260);
                 if(noise > 0.72){
-                    this.floor = noise > 0.78 ? Blocks.taintedWater : (this.floor == Blocks.sand ? Blocks.sandWater : Blocks.darksandTaintedWater);
+                    this.floor = noise > 0.78 ? Blocks.water : (this.floor == Blocks.darksand ? Blocks.sandWater : Blocks.darksandTaintedWater);
                     this.ore = Blocks.air;
                 }else if(noise > 0.67){
-                    this.floor = (this.floor == Blocks.sand ? this.floor : Blocks.darksand);
+                    this.floor = (this.floor == Blocks.grass ? this.floor : Blocks.darksand);
                     this.ore = Blocks.air;
                 };
             };
