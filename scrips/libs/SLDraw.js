@@ -1,6 +1,6 @@
 /*
 * Lib by JerichoFletcher 
-* Extended and Modified by Zeniku
+* Extended and Modified by Solarys
 *
 * [Notes]
 * inOut is where you place e.fin() or e.fout() for the change color
