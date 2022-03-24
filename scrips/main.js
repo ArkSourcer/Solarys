@@ -13,11 +13,11 @@ Events.on(ClientLoadEvent, () => {
     routros.atmosphereRadIn = 0.1;
     routros.atmosphereRadOut = 0.3;
     routros.alwaysUnlocked = true;
-    routros.localizedName = "Solara";
+    routros.localizedName = "Router";
 
     for(var i = 0; i < 31; i++){
-        var h = new SectorPreset("solara" + i, routros, i);
-        h.localizedName = "Solara" + i;
+        var h = new SectorPreset("router" + i, routros, i);
+        h.localizedName = "Router" + i;
         h.alwaysUnlocked = true;
     };
 });
