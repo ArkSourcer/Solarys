@@ -21,7 +21,7 @@ consumes: {
   }
   power: 12
 }
-craftEffect: boom
+craftEffect: smokeCloud
 requirements: [
   pyratite/500
   thorium/600
