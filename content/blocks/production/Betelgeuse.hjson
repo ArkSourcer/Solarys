@@ -1,9 +1,6 @@
 type: genericCrafter
 craftTime: 100
 size: 4
-drawer: {
-  type: drawAnimation
-}
 hasPower: true
 hasLiquids: true
 liquidCapacity: 100
