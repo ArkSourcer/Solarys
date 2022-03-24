@@ -9,5 +9,5 @@
 ![stars](https://img.shields.io/github/stars/SolarysJS/Solarys?color=ffc400&label=Stars%20%7C%20Estrellas&logo=github)
 ![code size](https://img.shields.io/github/languages/code-size/SolarysJS/Solarys?color=%2300ff0d&logo=github)
 ![Language](https://img.shields.io/github/languages/top/SolarysJS/Solarys?color=%23ff5100&logo=java&logoColor=%23ff5100)
-# Materiales
+# Materiales vr:0.9 Alpha
 ![Progreso](https://user-images.githubusercontent.com/93954648/158679996-d413c13b-b2ca-4453-9593-4e655c251d05.png)
