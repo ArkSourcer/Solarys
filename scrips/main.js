@@ -1,16 +1,21 @@
-function req(){
-  for(let i of arguments){
-    const dir = (i[0] != "")? i[0] + "/" : "";
-    i.forEach(e => {
-      if(e != i[0]){
-        print("Solarys/" + dir + e)
-        require("Solarys/" + dir + e)
-      }
-    })
-  }
-}
+const solara = new JavaAdapter(Planet, {}, "solara", Planets.sun, 4, 1);
+solara.generator = new SerpuloPlanetGenerator();
+solara.mesh = new HexMesh(solara, 5);
+  solara.orbitRadius = 100;
+    solara.orbitTime = 1500;
+    solara.rotateTime = 30;
+    solara.bloom = false;
+    solara.accessible = true;
+    solara.startSector = 1;
+    solara.hasAtmosphere = false;
+    solara.atmosphereColor = Color.valueOf("ff895e");
+    solara.atmosphereRadIn = 0.0;
+    solara.atmosphereRadOut = 0.0;
+    solara.alwaysUnlocked = true;
+    solara.localizedName = "Solara";
 
-req(
-  //Campaign
-  ["campaign", "planets"]
-)
+var h = new SectorPreset("a1", solara, 1);
+h.difficulty = 2; 
+h.alwaysUnlocked = true;
+h.captureWave = 20; 
+h.localisedName = "solara";
