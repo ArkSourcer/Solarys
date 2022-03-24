@@ -1,32 +1,7 @@
-const HMUnits = require("heavymachinery/units");
+const SLUnits = require("Solarys/units");
 let never = Number.MAX_VALUE;
-
-function genSpawnGroup(object){
-    if (object.type == null) object.type = HMUnits.pugione
-    object.end = object.end > 2147483647 ? 2147483647 : object.end;
-    return Object.assign(new SpawnGroup, object);
 }
-
-let s = Seq.with()
-for(let i = 1; i <= 4; i++){
-  s.add(genSpawnGroup({
-    type: HMUnits.pugione,
-    begin: 13 * i,
-    spacing: 3 * i,
-    unitScaling: 0.5 * i,
-    max: 25 * i,
-  }))
-  s.add(genSpawnGroup({
-    type: HMUnits.princeps,
-    begin: 20 * i,
-    spacing: 7 * i,
-    unitScaling: 1 * i,
-    max: 25 * i,
-  }))
-}
-
-
-const HMWaves = extend(Waves, {
+const SLWaves = extend(Waves, {
     get(){
       let spawns = s
             
@@ -241,11 +216,6 @@ const HMWaves = extend(Waves, {
         return spawns;
     },
     generate(difficulty, rand, attack){
-        let species = [
-        [HMUnits.pugione, HMUnits.mucro, HMUnits.tragula, HMUnits.lucius, HMUnits.machaera],
-        [HMUnits.aranea, HMUnits.traho, HMUnits.spiculum, HMUnits.interitus, HMUnits.eterius],
-        [HMUnits.pugione, HMUnits.mucro, HMUnits.tragula, HMUnits.lucius, HMUnits.machaera],
-        ];
         
         //required progression:
         //- extra periodic patterns
@@ -405,5 +375,5 @@ const HMWaves = extend(Waves, {
 });
 
 module.exports = {
-    waves: HMWaves
+    waves: SLWaves
 }
