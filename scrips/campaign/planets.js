@@ -1,14 +1,14 @@
-const planetGen = require("heavymachinery/libs/planetGen");
+const planetGen = require("Solarys/libs/planetGen");
 
-const caeruleum = extend(Planet, "caeruleum", Planets.sun, 3, 1.25, {
+const solara = extend(Planet, "solara", Planets.sun, 3, 1.25, {
   generator: planetGen.planetGen,
   bloom: true,
   accessible: true,
   hasAtmosphere: true,
-  atmosphereColor: Color.valueOf("363f9a"),
+  atmosphereColor: Color.valueOf("ff895e"),
   atmosphereRadIn: 0.02,
   atmosphereRadOut: 0.3,
-  localizedName: "Caeruleum",
+  localizedName: "Solara",
   startSector: 10
 });
-caeruleum.meshLoader = () => extend(HexMesh, caeruleum, 6, {});
+solara.meshLoader = () => extend(HexMesh, solara, 6, {});
