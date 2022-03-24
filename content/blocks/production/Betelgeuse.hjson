@@ -1,7 +1,6 @@
 type: genericCrafter
 craftTime: 100
-topRegion: Betelgeuse-top
-size: 5
+size: 4
 drawer: {
   type: drawAnimation
 }
@@ -22,7 +21,7 @@ consumes: {
   }
   power: 12
 }
-craftEffect: launch
+craftEffect: boom
 requirements: [
   pyratite/500
   thorium/600
@@ -33,4 +32,3 @@ requirements: [
 category: crafting
 outputItem: solarys/1
 research: blast-mixer
-soundEffect: boom 
