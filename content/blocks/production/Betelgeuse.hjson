@@ -30,8 +30,5 @@ requirements: [
   silicon/700
 ]
 category: crafting
-  outputItem: [
-  failed-core/1
-]
-solarys/1
+outputItem: solarys/1
 research: blast-mixer
