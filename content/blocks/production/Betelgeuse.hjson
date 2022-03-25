@@ -1,36 +1,34 @@
-name: Betelgeuse
-description: "Big sol"
-health: 700
+type: genericCrafter
+craftTime: 90
 size: 4
-requirements:
-[
-    pyratite/400
-    blast-compound/200
-    titanium/500
-    silicon/500
+top: Betelgeuse-top
+drawer: {
+  type: drawAnimation
+}
+hasPower: true
+hasLiquids: true
+liquidCapacity: 72
+consumes: {
+  items: {
+    items: [
+      pyratite/6
+      blast-compound/4
+      thorium/6
+    ]
+  }
+  liquid: {
+    liquid: slag
+    amount: 1
+  }
+  power: 15
+}
+craftEffect: launch
+requirements: [
+  pyratite/600
+  blast-compound/500
+  thorium/500
+  silicon/700
 ]
 category: crafting
-research: crystalizer
-liquidCapacity: 140
-consumes:
-{
-    items: {
-        items: [
-            pyratite/5
-            blast-compound/5
-            thorium/4
-        ]
-    }
-    liquid: {
-        liquid: slag
-        amount: 1
-    }
-    power: 11.5
-}
-itemCapacity: 45
-craftTime: 60
-results:
-[
-    solarys/1
-    failed-core/1
-]
+outputItem: plastanium/5
+research: blast-mixer
