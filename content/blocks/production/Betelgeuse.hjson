@@ -32,6 +32,6 @@ requirements: [
 category: crafting
 outputItem:[ 
 solarys/1
-failed-core
+failed-core/1
 ]
 research: blast-mixer
