@@ -30,5 +30,8 @@ requirements: [
   silicon/700
 ]
 category: crafting
-outputItem: plastanium/5
+outputItem:[ 
+solarys/1
+failed-core
+]
 research: blast-mixer
