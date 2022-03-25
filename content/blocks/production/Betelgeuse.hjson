@@ -14,11 +14,18 @@ research: crystalizer
 liquidCapacity: 140
 consumes:
 {
-    power: 2
-    liquid: {
-        liquid: slag
-        amount: 1
+    items: {
+        items: [
+            pyratite/5
+            blast-compound/5
+            thorium/4
+        ]
     }
+    liquid: {
+        liquid: water
+        amount: 0.4
+    }
+    power: 11.5
 }
 itemCapacity: 45
 craftTime: 60
