@@ -1,0 +1,29 @@
+name: Betelgeuse
+description: "Big sol"
+health: 700
+size: 4
+requirements:
+[
+    pyratite/400
+    blast-compound/200
+    titanium/500
+    silicon/500
+]
+category: crafting
+research: crystalizer
+liquidCapacity: 140
+consumes:
+{
+    power: 2
+    liquid: {
+        liquid: slag
+        amount: 1
+    }
+}
+itemCapacity: 45
+craftTime: 60
+results:
+[
+    solarys/1
+    failed-core/1
+]
