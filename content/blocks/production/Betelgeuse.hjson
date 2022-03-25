@@ -1,6 +1,6 @@
 type: genericCrafter
 craftTime: 90
-size: 4
+size: 5
 top: Betelgeuse-top
 drawer: {
   type: drawAnimation
@@ -30,6 +30,7 @@ requirements: [
   silicon/700
 ]
 category: crafting
-outputItem: 
+outputItem:
+failed-core/1
 solarys/1
 research: blast-mixer
