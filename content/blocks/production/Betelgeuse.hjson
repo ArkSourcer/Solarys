@@ -22,8 +22,8 @@ consumes:
         ]
     }
     liquid: {
-        liquid: water
-        amount: 0.4
+        liquid: slag
+        amount: 1
     }
     power: 11.5
 }
