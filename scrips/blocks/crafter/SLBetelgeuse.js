@@ -21,3 +21,18 @@ Betelgeuse.buildType = () => extend(GenericCrafter.GenericCrafterBuild, Betelgeu
     this.drawGlowAlpha = Mathf.lerpDelta(this.drawGlowAlpha, this.progress, 0.2)
     }
   },
+draw() {
+    Draw.rect(phaseCrafter.region, this.x, this.y)
+    Draw.alpha(this.drawPhaseAlpha)
+    Draw.rect(phaseCrafter.phaseRegion, this.x, this.y)
+    Draw.alpha(1)
+    Draw.rect(phaseCrafter.barRegion, this.x, this.y + Mathf.sin(this.drawTime2, 10, 9.75))
+    Draw.rect(phaseCrafter.pointRegion, this.x + Mathf.sin(this.drawTime2, 7, 9.75), this.y + Mathf.sin(this.drawTime2, 10, 9.75))
+    Draw.rect(phaseCrafter.pointRegion, this.x + Mathf.cos(this.drawTime2, 7, 9.75), this.y + Mathf.sin(this.drawTime2, 10, 9.75))
+    Draw.rect(phaseCrafter.barRegion, this.x, this.y + Mathf.cos(this.drawTime2, 10, 9.75))
+    Draw.rect(phaseCrafter.pointRegion, this.x + Mathf.sin(this.drawTime2 + 3, 7, 9.75), this.y + Mathf.cos(this.drawTime2, 10, 9.75))
+    Draw.rect(phaseCrafter.pointRegion, this.x + Mathf.cos(this.drawTime2 + 3, 7, 9.75), this.y + Mathf.cos(this.drawTime2, 10, 9.75))
+    Draw.z(Layer.block + 0.002)
+    Draw.rect(phaseCrafter.topRegion, this.x, this.y)
+  }
+})
