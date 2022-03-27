@@ -31,5 +31,5 @@ requirements: [
 category: crafting
 outputItem: solarys/1
 research: blast-mixer
-idleSound: Betelgeuse-b1
-idleSoundVolume: 1.50
+loopSound: Betelgeuse-b1
+loopSoundVolume: 0.50
