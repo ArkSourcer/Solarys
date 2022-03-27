@@ -7,7 +7,7 @@ type: drawAnimation
 }
 hasPower: true
 hasLiquids: true
-top: Betelgeuse-glow
+liquidRegion: Betelgeuse-glow
 liquidCapacity: 72
 consumes: {
   items: {
