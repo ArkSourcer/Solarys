@@ -1,10 +1,10 @@
 type: genericCrafter
 craftTime: 90
 size: 3
+topRegion: Betelgeuse-top
+bottomRegion:Betelgeuse-bottom
 drawer: {
 type: DrawMixer
-topRegion: Betelgeuse-top
-bottom:Betelgeuse-bottom
 }
 hasPower: true
 hasLiquids: true
