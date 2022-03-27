@@ -2,12 +2,9 @@ type: genericCrafter
 craftTime: 90
 size: 3
 drawer: {
-type: DrawSmelter
-Betelgeuse-top
-}
-drawer: {
-type: DrawGlow
-Betelgeuse-phase
+type: DrawMixer
+top: Betelgeuse-top
+bottom:Betelgeuse-phase
 }
 hasPower: true
 hasLiquids: true
