@@ -12,8 +12,7 @@ consumes: {
   items: {
     items: [
       pyratite/6
-      blast-compound/4
-      thorium/6
+      blast-compound/5
     ]
   }
   liquid: {
