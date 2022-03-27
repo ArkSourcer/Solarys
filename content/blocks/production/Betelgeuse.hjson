@@ -3,8 +3,8 @@ craftTime: 90
 size: 3
 drawer: {
 type: DrawMixer
-top: Betelgeuse-top
-bottom:Betelgeuse-phase
+topRegion: Betelgeuse-top
+bottomRegion:Betelgeuse-phase
 }
 hasPower: true
 hasLiquids: true
