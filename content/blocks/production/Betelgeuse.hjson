@@ -32,3 +32,5 @@ requirements: [
 category: crafting
 outputItem: solarys/1
 research: blast-mixer
+ambientSound: Betelgeuse-b1
+ambientSoundVolume: 1.50
