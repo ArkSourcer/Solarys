@@ -4,7 +4,7 @@ size: 3
 drawer: {
 type: DrawMixer
 topRegion: Betelgeuse-top
-bottom:Betelgeuse-phase
+bottom:Betelgeuse-bottom
 }
 hasPower: true
 hasLiquids: true
