@@ -11,17 +11,17 @@ recoilAmount: 10
 ammoUseEffect: casing2
 shootCone: 50
 rotateSpeed: 500
-range: 40
+range: 50
 consumes: {
   liquid: {
     liquid: water
-    amount: 5
+    amount: 0.5
     booster: true
   }
 }
 ammoTypes: {
   lunalys: {
-    speed: 1
+    speed: 2
     damage: 100
     width: 10
     height: 20
@@ -35,7 +35,7 @@ ammoTypes: {
     backColor: 7767eb
   }
   titanium: {
-    speed: 1
+    speed: 2
     damage: 50
     width: 10
     height: 20
