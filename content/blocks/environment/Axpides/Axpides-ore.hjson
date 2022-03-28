@@ -1,7 +1,9 @@
-type: OreBlock
+type: OverlayFloor
+localizedName: Axpides Ore
+name: Ancient Debris
 itemDrop: Axpides
 playerUnmineable: true
 oreDefault: true
-variants: 6
-oreScale: 19.7
-oreThreshold: 0.917
+variants: 8
+oreScale: 9
+oreThreshold: 0.96
