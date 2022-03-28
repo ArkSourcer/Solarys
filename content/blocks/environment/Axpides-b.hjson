@@ -1,4 +1,4 @@
-type: OverlayFloor
+type: OreBlock
 localizedName: Axpides Ore
 name: Ancient Debris
 itemDrop: Axpides
