@@ -5,6 +5,7 @@ health: 1500
 size: 3
 inaccuracy: 40
 reloadTime: 500
+lifetime: 3
 shots: 15
 recoilAmount: 10
 ammoUseEffect: casing2
