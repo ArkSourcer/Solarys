@@ -4,13 +4,13 @@ targetGround: true
 health: 1500
 size: 3
 inaccuracy: 40
-reloadTime: 1000
-shots: 10
+reloadTime: 500
+shots: 15
 recoilAmount: 10
 ammoUseEffect: casing2
 shootCone: 50
 rotateSpeed: 500
-range: 50
+range: 40
 consumes: {
   liquid: {
     liquid: water
@@ -20,7 +20,7 @@ consumes: {
 }
 ammoTypes: {
   lunalys: {
-    speed: 2
+    speed: 15
     damage: 100
     width: 10
     height: 20
@@ -34,7 +34,7 @@ ammoTypes: {
     backColor: 7767eb
   }
   titanium: {
-    speed: 3
+    speed: 10
     damage: 50
     width: 10
     height: 20
