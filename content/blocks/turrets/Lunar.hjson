@@ -20,7 +20,7 @@ consumes: {
 }
 ammoTypes: {
   lunalys: {
-    speed: 5
+    speed: 2
     damage: 100
     width: 10
     height: 20
@@ -34,7 +34,7 @@ ammoTypes: {
     backColor: 7767eb
   }
   titanium: {
-    speed: 4
+    speed: 3
     damage: 50
     width: 10
     height: 20
