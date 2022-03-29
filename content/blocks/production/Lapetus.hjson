@@ -1,0 +1,34 @@
+type: genericCrafter
+craftTime: 90
+size: 3
+drawer: {
+type: DrawSmelter
+}
+hasPower: true
+hasLiquids: true
+liquidCapacity: 72
+consumes: {
+  items: {
+    items: [
+      titanium/7
+      thorium/5
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.5
+  }
+  power: 10
+}
+craftEffect: launch
+requirements: [
+  lead/600
+  titanium/500
+  thorium/500
+  silicon/700
+]
+category: crafting
+outputItem: solarys/2
+research: blast-mixer
+ambientSound: Betelgeuse-b1
+ambientSoundVolume: 1.55
