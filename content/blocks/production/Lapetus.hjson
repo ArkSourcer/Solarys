@@ -3,7 +3,7 @@ craftTime: 90
 size: 3
 drawer: {
 type: DrawSmelter
-topRegion: Betelgeuse.bottom
+topRegion: Betelgeuse-bottom
 }
 hasPower: true
 hasLiquids: true
