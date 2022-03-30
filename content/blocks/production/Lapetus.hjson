@@ -29,7 +29,7 @@ requirements: [
   silicon/700
 ]
 category: crafting
-outputItem: Lunalys/2
+outputItem: lunalys/2
 research: blast-mixer
 ambientSound: Betelgeuse-bo1
 ambientSoundVolume: 1.55
