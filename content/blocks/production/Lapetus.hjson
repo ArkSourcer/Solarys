@@ -3,6 +3,7 @@ craftTime: 90
 size: 3
 drawer: {
 type: DrawSmelter
+topRegion: Betelgeuse.bottom
 }
 hasPower: true
 hasLiquids: true
@@ -28,7 +29,7 @@ requirements: [
   silicon/700
 ]
 category: crafting
-outputItem: solarys/2
+outputItem: Lunalys/2
 research: blast-mixer
 ambientSound: Betelgeuse-b1
 ambientSoundVolume: 1.55
