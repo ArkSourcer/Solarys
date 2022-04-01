@@ -1,4 +1,4 @@
-type: Floor
+type: wall
 name: Mayo Block
 variants: 0
 walkSound: mayosound
