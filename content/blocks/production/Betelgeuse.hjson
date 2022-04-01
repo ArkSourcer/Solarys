@@ -11,7 +11,7 @@ liquid: Betelgeuse-liquid
 top: Betelgeuse-top
 soundEffect: Betelgeuse-bo1
   liquid: {
-    liquid: cryofluid
+    liquid: slag
     amount: 0.5
   }
 consumes: {
