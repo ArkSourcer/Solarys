@@ -5,8 +5,8 @@ hasPower: true
 hasItems: true
 itemCapacity: 20
   craftTime: 120
-craftEffect: teleport
-updateEffect: launch 
+craftEffect: massiveExplosion 
+updateEffect: none
 liquid: Betelgeuse-liquid
 top: Betelgeuse-top
 soundEffect: none
