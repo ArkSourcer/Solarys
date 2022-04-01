@@ -1,7 +1,0 @@
-type: wall
-name: Mayo Block
-variants: 0
-walkSound: mayosound
-walkSoundVolume: 0.8
-walkSoundPitchMin: 0.6
-walkSoundPitchMax: 1.5
