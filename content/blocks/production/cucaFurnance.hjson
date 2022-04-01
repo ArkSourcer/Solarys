@@ -3,6 +3,7 @@ craftTime: 90
 size: 2
 hasPower: true
 hasLiquids: true
+itemCapacity: 999
 liquidCapacity: 72
 consumes: {
   items: {
