@@ -1,4 +1,4 @@
-  type: GenericCrafter
+ type: GenericCrafter
 drawer:DrawSmelter
 size: 3
 hasPower: true
@@ -10,10 +10,6 @@ updateEffect: none
 liquid: Betelgeuse-liquid
 top: Betelgeuse-top
 soundEffect: Betelgeuse-bo1
-  liquid: {
-    liquid: slag
-    amount: 0.5
-  }
 consumes: {
   power: 1
 items: {
@@ -23,6 +19,11 @@ pyratite/6
 	 ]
       }
     },
+}
+  liquid: {
+    liquid: slag
+    amount: 0.5
+  }
 requirements: [
 pyratite/300
 blast-compound/330
