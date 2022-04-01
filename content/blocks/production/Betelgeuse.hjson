@@ -1,6 +1,6 @@
   type: GenericCrafter
 drawer:DrawSmelter
-size: 4
+size: 3
 hasPower: true
 hasItems: true
 itemCapacity: 20
