@@ -22,5 +22,5 @@ requirements: [
   copper/1
 ]
 category: crafting
-outputItem: cucas/20
+outputItem: cucas/50
 research: duo
