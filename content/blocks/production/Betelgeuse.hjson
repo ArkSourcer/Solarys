@@ -10,8 +10,12 @@ updateEffect: none
 liquid: Betelgeuse-liquid
 top: Betelgeuse-top
 soundEffect: Betelgeuse-bo1
+  liquid: {
+    liquid: cryofluid
+    amount: 0.5
+  }
 consumes: {
-  power: 0.5
+  power: 1
 items: {
 items: [
 blast-compound/5
