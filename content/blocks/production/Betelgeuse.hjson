@@ -9,6 +9,7 @@ craftEffect: teleport
 updateEffect: launch 
 liquid: Betelgeuse-liquid
 top: Betelgeuse-top
+soundEffect: none
 consumes: {
   power: 0.5
 items: {
