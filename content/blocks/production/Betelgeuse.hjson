@@ -9,7 +9,7 @@ craftEffect: massiveExplosion
 updateEffect: none
 liquid: Betelgeuse-liquid
 top: Betelgeuse-top
-soundEffect: none
+soundEffect: Betelgeuse-bo1
 consumes: {
   power: 0.5
 items: {
