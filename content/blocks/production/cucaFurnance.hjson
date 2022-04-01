@@ -1,0 +1,25 @@
+type: genericCrafter
+craftTime: 90
+size: 2
+hasPower: true
+hasLiquids: true
+liquidCapacity: 72
+consumes: {
+  items: {
+    items: [
+      copper/1
+    ]
+  }
+  liquid: {
+    liquid: slag
+    amount: 0.01
+  }
+  power: 10
+}
+craftEffect: fireSmoke
+requirements: [
+  copper/1
+]
+category: crafting
+outputItem: cucas/20
+research: duo
