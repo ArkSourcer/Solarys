@@ -1,25 +1,25 @@
   type: GenericCrafter
-	drawer:DrawSmelter
-	size: 4
-	hasPower: true
-	hasItems: true
-	itemCapacity: 20
+drawer:DrawSmelter
+size: 4
+hasPower: true
+hasItems: true
+itemCapacity: 20
   craftTime: 120
-	craftEffect: teleport
-	updateEffect: none
-	consumes: {
+craftEffect: teleport
+updateEffect: none
+consumes: {
   power: 0.5
-	items: {
-	items: [
+items: {
+items: [
 blast-compound/5
 pyratite/6
-			]
-		}
-	},
+	 ]
+      }
+    },
 requirements: [
 pyratite/300
 blast-compound/330
-	],
+],
 category: crafting
 research: blast-mixer
 outputItem: solarys/2
