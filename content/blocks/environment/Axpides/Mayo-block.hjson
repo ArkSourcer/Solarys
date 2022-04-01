@@ -1,6 +1,6 @@
 type: Floor
 name: Mayo Block
-variants: 1
+variants: 0
 walkSound: mayosound
 walkSoundVolume: 0.8
 walkSoundPitchMin: 0.6
