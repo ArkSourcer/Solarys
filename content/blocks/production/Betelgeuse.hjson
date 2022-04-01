@@ -1,35 +1,25 @@
-type: genericCrafter
-craftTime: 90
-size: 3
-drawer: {
-type: DrawSmelter
-topRegion: Betelgeuse.bottom
-}
-hasPower: true
-hasLiquids: true
-liquidCapacity: 72
-consumes: {
-  items: {
-    items: [
-      pyratite/6
-      blast-compound/5
-    ]
-  }
-  liquid: {
-    liquid: slag
-    amount: 1
-  }
-  power: 15
-}
-craftEffect: launch
+  type: GenericCrafter
+	drawer:DrawSmelter
+	size: 4
+	hasPower: true
+	hasItems: true
+	itemCapacity: 20
+  craftTime: 120
+	craftEffect: teleport
+	updateEffect: none
+	consumes: {
+  power: 0.5
+	items: {
+	items: [
+blast-compound/5
+pyratite/6
+			]
+		}
+	},
 requirements: [
-  pyratite/600
-  blast-compound/500
-  thorium/500
-  silicon/700
-]
+pyratite/300
+blast-compound/330
+	],
 category: crafting
-outputItem: solarys/2
 research: blast-mixer
-ambientSound: Betelgeuse-bo1
-ambientSoundVolume: 1.55
+outputItem: solarys/2
