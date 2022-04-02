@@ -13,6 +13,10 @@ flameColor: ff764d
 top: Betelgeuse-top
 soundEffect: Betelgeuse-bo1
 consumes: {
+  liquid: {
+    liquid: cryofluid
+    amount: 0.5
+  }
   power: 1
 items: {
 items: [
@@ -28,7 +32,4 @@ blast-compound/330
 category: crafting
 research: blast-mixer
 outputItem: solarys/2
-  liquid: {
-    liquid: cryofluid
-    amount: 0.5
-}
+
