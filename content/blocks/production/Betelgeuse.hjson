@@ -26,7 +26,6 @@ blast-compound/330
 category: crafting
 research: blast-mixer
 outputItem: solarys/2
- }
   liquid: {
     liquid: cryofluid
     amount: 0.5
