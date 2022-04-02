@@ -9,9 +9,8 @@ itemCapacity: 20
   craftTime: 120
 craftEffect: massiveExplosion 
 updateEffect: none
-flameColor: ff764d
 top: Betelgeuse-top
-soundEffect: Betelgeuse-bo1
+liquid: Betelgeuse-liquid
 consumes: {
   liquid: {
     liquid: slag
