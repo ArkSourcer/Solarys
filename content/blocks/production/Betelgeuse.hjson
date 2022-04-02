@@ -4,6 +4,7 @@ size: 3
 hasPower: true
 hasItems: true
 hasLiquids: true
+liquidCapacity: 100
 itemCapacity: 20
   craftTime: 120
 craftEffect: massiveExplosion 
