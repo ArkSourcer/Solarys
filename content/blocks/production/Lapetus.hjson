@@ -7,8 +7,8 @@ hasLiquids: true
 liquidCapacity: 100
 itemCapacity: 20
   craftTime: 120
-craftEffect: sporeSlowed 
-updateEffect: none
+craftEffect: lightningShoot  
+updateEffect: sporeSlowed
 top: Lapetus-top
 consumes: {
   liquid: {
