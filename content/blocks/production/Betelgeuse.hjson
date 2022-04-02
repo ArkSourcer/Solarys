@@ -10,7 +10,6 @@ updateEffect: none
 liquid: Betelgeuse-liquid
 top: Betelgeuse-top
 soundEffect: Betelgeuse-bo1
-}
 consumes: {
   power: 1
 items: {
@@ -20,11 +19,6 @@ pyratite/6
 	 ]
       }
     },
-}
-  liquid: {
-    liquid: slag
-    amount: 0.5
-  }
 requirements: [
 pyratite/300
 blast-compound/330
@@ -32,3 +26,8 @@ blast-compound/330
 category: crafting
 research: blast-mixer
 outputItem: solarys/2
+ }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.5
+}
