@@ -3,11 +3,12 @@ drawer:DrawSmelter
 size: 3
 hasPower: true
 hasItems: true
+hasLiquids: true
 itemCapacity: 20
   craftTime: 120
 craftEffect: massiveExplosion 
 updateEffect: none
-liquid: Betelgeuse-liquid
+flameColor: ff764d
 top: Betelgeuse-top
 soundEffect: Betelgeuse-bo1
 consumes: {
