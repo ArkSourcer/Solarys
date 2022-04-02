@@ -1,35 +1,34 @@
-type: genericCrafter
-craftTime: 90
+ type: GenericCrafter
+drawer:DrawSmelter
 size: 3
-drawer: {
-type: DrawSmelter
-topRegion: Betelgeuse-top
-}
 hasPower: true
+hasItems: true
 hasLiquids: true
-liquidCapacity: 72
+liquidCapacity: 100
+itemCapacity: 20
+  craftTime: 120
+craftEffect: upgradeCore 
+updateEffect: none
+top: Lapetus-top
 consumes: {
-  items: {
-    items: [
-      titanium/7
-      thorium/5
-    ]
-  }
   liquid: {
     liquid: cryofluid
-    amount: 0.5
+    amount: 0.35
   }
-  power: 10
-}
-craftEffect: launch
+  power: 0.9
+items: {
+items: [
+spore-pod/6
+thorium/5
+	 ]
+      }
+    },
 requirements: [
-  lead/600
-  titanium/500
-  thorium/500
-  silicon/700
-]
+spore-pod/300
+thorium/330
+lead/200
+],
 category: crafting
+research: spore-press
 outputItem: lunalys/2
-research: blast-mixer
-ambientSound: Betelgeuse-bo1
-ambientSoundVolume: 1.55
+
