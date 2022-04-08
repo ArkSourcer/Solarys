@@ -1,5 +1,6 @@
 type: PowerTurret
 top: Tesla-top
+size: 2
 health: 260
 rotateSpeed: 0
 reloadTime: 100
@@ -12,7 +13,7 @@ targetHealing: true
 shootCone: 360
 shootSound: TeslaSound
 shootType: {
-  type: damageLightningType
+  type: LightningBulletType
   damage: 20
   collidesTeam: false
   healPercent: 2
