@@ -1,4 +1,5 @@
 ype: PowerTurret
+top: Tesla-top
 health: 260
 reloadTime: 100
 range: 30
