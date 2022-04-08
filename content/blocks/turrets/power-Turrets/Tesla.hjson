@@ -2,6 +2,7 @@
         researchCostMultiplier: 0.5
         size: 2
         health: 240
+        rotateSpeed: 0
         reloadTime: 5
         powerUse: 0.5
         range: 180
@@ -10,11 +11,13 @@
         spread: 3
         alternate: true
         targetAir: true
-        targetGround: true    
+        targetGround: true
+        shootSound: TeslaSound 
 shootType: {
   type: LightningBulletType
   damage: 10
   collidesTeam: true
+  shootcone: 360
   healPercent: 2
   speed: 10
   lifetime: 210
