@@ -34,7 +34,7 @@ shootType: {
 }
         }
         requirements: [
-            astral/20
+            Axpides/20
             silicon/200
             thorium/50
         ]
