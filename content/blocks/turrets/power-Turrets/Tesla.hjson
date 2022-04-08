@@ -33,7 +33,6 @@ shootType: {
   frontColor: ffffff
   backColor: 83f793
 }
-        }
         requirements: [
             Axpides/20
             silicon/200
