@@ -22,8 +22,9 @@
         lenTo: 0
         colorFrom: b6d2f2
         colorTo: b6d2f2
-bulletType: {
-  type: damageLightning
+}
+shootType: {
+  type: LightningBulletType
   damage: 10
   collidesTeam: true
   healPercent: 2
