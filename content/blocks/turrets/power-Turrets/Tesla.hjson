@@ -1,32 +1,76 @@
-type: PowerTurret
-top: Tesla-top
-size: 2
-health: 260
-rotateSpeed: 0
-reloadTime: 100
-range: 30
-shots: 10
-burstSpacing: 3
-spread: 0
-powerUse: 0.85
-targetHealing: true
-shootSound: TeslaSound
-shootType: {
-  type: LightningBulletType
-  damage: 20
-shootCone: 360
-pierce: true
-  collidesTeam: false
-  healPercent: 2
-  speed: 7
-  lifetime: 10
-  frontColor: ffffff
-  backColor: fcfcd2
-}
-category: turret
-research: lancer
-requirements: [
-  copper/100
-  Axpides/50
-  lead/100
-]
+        type: PowerTurret
+        researchCostMultiplier: 0.5
+        size: 2
+        health: 240
+        reloadTime: 5
+        range: 180
+        inaccuracy: 1
+        shots: 3
+        spread: 3
+        alternate: true
+        targetAir: true
+        targetGround: true
+        shootEffect: {
+        type: ParticleEffect
+        line: true
+        particles: 10
+        lifetime: 10
+        length: 35
+        cone: 360
+        lenFrom: 5
+        lenTo: 0
+        colorFrom: b6d2f2
+        colorTo: b6d2f2
+        }
+        shootCone: 0.08
+        recoilAmount: 0.5
+        restitution: 0.07
+        rotateSpeed: 5
+        shootSound: sap
+        hasPower: true
+        ammoTypes: {
+            copper: {
+            type: LightningBulletType
+            shrinkY: 0.1
+            shrinkX: 0.1
+            speed: 5
+            lifetime: 40
+            damage: 15
+            status: shocked
+            height: 5
+            width: 2
+            hitEffect: {
+            type: ParticleEffect
+            line: true
+            particles: 5
+            lifetime: 10
+            length: 10
+            cone: -360
+            lenFrom: 1
+            lenTo: 0
+            colorFrom: b6d2f2
+            colorTo: b6d2f2
+            }
+            despawnEffect: {
+            type: WaveEffect
+            lifetime: 25
+            sizeFrom: 0
+            sizeTo: 10
+            strokeFrom: 1
+            strokeTo: 0
+            colorFrom: b6d2f2
+            colorTo: b6d2f2
+            }
+            frontColor: FFFFFFF
+            backColor: b6d2f2
+                }
+        }
+        requirements: [
+            astral/20
+            silicon/200
+            thorium/50
+        ]
+        category: turret
+        research: fuse
+    }
+    
