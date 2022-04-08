@@ -2,7 +2,7 @@
         researchCostMultiplier: 0.5
         size: 2
         health: 240
-        rotateSpeed: 1
+        rotateSpeed: 2
         inaccuracy: 1000
         pierce: true
         shootCone: 300
