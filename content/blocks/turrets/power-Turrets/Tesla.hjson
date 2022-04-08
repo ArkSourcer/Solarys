@@ -2,7 +2,7 @@
         researchCostMultiplier: 0.5
         size: 2
         health: 240
-        rotateSpeed: 0
+        rotateSpeed: 0.5
         reloadTime: 5
         powerUse: 0.5
         range: 180
@@ -18,6 +18,7 @@ shootType: {
   damage: 10
   collidesTeam: true
   shootcone: 360
+  pierce: true
   healPercent: 2
   speed: 10
   lifetime: 210
@@ -30,4 +31,4 @@ shootType: {
             thorium/50
         ]
         category: turret
-        research: fuse
+        research: lancer
