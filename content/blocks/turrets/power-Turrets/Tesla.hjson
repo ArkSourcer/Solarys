@@ -10,11 +10,12 @@ burstSpacing: 3
 spread: 0
 powerUse: 0.85
 targetHealing: true
-shootCone: 360
 shootSound: TeslaSound
 shootType: {
   type: LightningBulletType
   damage: 20
+shootCone: 360
+pierce: true
   collidesTeam: false
   healPercent: 2
   speed: 7
