@@ -1,0 +1,28 @@
+ype: PowerTurret
+health: 260
+reloadTime: 100
+range: 30
+shots: 10
+burstSpacing: 3
+spread: 0
+powerUse: 0.85
+targetHealing: true
+shootCone: 360
+shootSound: TeslaSound
+shootType: {
+  type: damageLightning
+  damage: 20
+  collidesTeam: false
+  healPercent: 2
+  speed: 7
+  lifetime: 10
+  frontColor: ffffff
+  backColor: fcfcd2
+}
+category: turret
+research: lancer
+requirements: [
+  copper/100
+  Axpides/50
+  lead/100
+]
