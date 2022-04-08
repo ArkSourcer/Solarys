@@ -27,7 +27,6 @@ ammoTypes: {
     backColor: ff7700
   }
   pyratite: {
-    sprite: sol
     speed: 6
     damage: 200
     width: 16
