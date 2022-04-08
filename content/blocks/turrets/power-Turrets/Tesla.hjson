@@ -1,3 +1,4 @@
+       { 
         type: PowerTurret
         researchCostMultiplier: 0.5
         size: 2
@@ -23,6 +24,7 @@
         colorFrom: b6d2f2
         colorTo: b6d2f2
 }
+    }
 shootType: {
   type: LightningBulletType
   damage: 10
@@ -40,4 +42,3 @@ shootType: {
         ]
         category: turret
         research: fuse
-
