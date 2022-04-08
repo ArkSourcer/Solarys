@@ -22,7 +22,7 @@
         lenTo: 0
         colorFrom: b6d2f2
         colorTo: b6d2f2
-shootType: {
+bulletType: {
   type: damageLightning
   damage: 10
   collidesTeam: true
