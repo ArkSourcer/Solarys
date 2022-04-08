@@ -4,6 +4,9 @@
         health: 240
         rotateSpeed: 1
         inaccuracy: 1000
+        pierce: true
+        shootCone: 300
+        recoilAmount: 0
         reloadTime: 5
         powerUse: 0.5
         range: 180
